@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    <title>PORTFOLIO</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css" >
+    </head>
+
+    <body>
+        <!--HOME-->
+        <div class="container-home" id="home">
+            <header>
+                <button id="modo-oscuro-btn" class="btn-submit" onclick="cambiarModoOscuro()">Modo Oscuro</button>
+                <nav class="navbar">
+                    <div class="brand">
+                      <h2 title="Peter Griffin"> Peter Griffin (PADRE DE FAMILIA)</h2>
+                    </div>
+                    <ul class="menu">
+                        <!-- Se añaden los botones con enlaces para ir a cada pagina -->
+                        <li><a href="#home" title="Home">Home</a></li>
+                        <li><a href="#about" title="Acerca de mi">Acerca de mi</a></li>
+                        <li><a href="#portfolio" title="Portfolio">Portfolio</a></li>
+                        <li><a href="#contacto" title="Contacto">Contacto</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <main class="main">
+                <div class="info-content">
+                    <h1  title="Peter Griffin">¡ Saludos ! Soy Peter Griffin</h1>
+                    <p title="lorem ipsum">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe nisi, iure quaerat illo minus doloremque voluptates deleniti vero reprehenderit porro assumenda, eos mollitia quam quod, autem explicabo tempore aliquid fugiat?</p>
+                </div>
+            <img src="media/img/Peter_Griffin.jpg" alt="Peter" title="Peter Griffin"></img>
+            </main>
+        </div>
+
+        <!--ACERCA DE MI -->
+        <div class="about" id="about">
+            <img src="media/img/peter2.jpg" alt="Peter2" title="Peter Griffin">
+        
+            <div class="about-info">
+                <h2>Acerca de mi</h2>
+                <p title="lorem ipsum">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda dolores nesciunt minima deserunt ipsam nisi cumque quia eum. Officia, ipsa omnis ipsam illum perspiciatis saepe excepturi voluptatibus odio impedit necessitatibus?</p>
+                <p title="lorem ipsum">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda dolores nesciunt minima deserunt ipsam nisi cumque quia eum. Officia, ipsa omnis ipsam illum perspiciatis saepe excepturi voluptatibus odio impedit necessitatibus?</p>
+                <button class="boton" title="Volver a Home"><a href="#home" class="boton-a" >Volver a Home</a></button>
+            </div>
+        </div>
+
+        <!-- PORTFOLIO-->
+        <div class="portfolio" id="portfolio">
+            
+            <header class="header1"><h1  title= "PORTFOLIO (mis mejores momentos televisivos)">MIS MEJORES MOMENTOS TELEVISIVOS</h1></header>
+            
+            <div class="portfolio-content">
+            <!-- Se añaden iframes con videos de los mejores momentos de la serie -->
+            <iframe class="video" width="450" height="200" src="https://www.youtube.com/embed/ARiK4stwLuw"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe class="video" width="450" height="200" src="https://www.youtube.com/embed/C_F46rmI03w"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe class="video" width="450" height="200" src="https://www.youtube.com/embed/SIUGydJJycs"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe class="video" width="450" height="200" src="https://www.youtube.com/embed/pg3sd3635yw"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe class="video" width="450" height="200" src="https://www.youtube.com/embed/vQCaAJlhPa0?list=RDZguqh_XILqk"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe class="video" width="450" height="200" src="https://www.youtube.com/embed/Lu4wplDHbzs"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe class="video" width="450" height="200" src="https://www.youtube.com/embed/XJDMCj_C1lE"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe class="video" width="450" height="200" src="https://www.youtube.com/embed/ZiVfkrZCL9g"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe class="video" width="450" height="200" src="https://www.youtube.com/embed/SIUGydJJycs"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <!-- CONTACTO-->
+        <div class="contacto" id="contacto">
+            <header class="header2"><h1 title="FORMULARIO DE CONTACTO">FORMULARIO DE CONTACTO</h1>
+                <img class="contacto-img" src="media/img/unnamed.jpg" title="Contácteme" alt="Imagen de contacto de Peter Griffin">
+            </header>
+            <div class="container-contact">
+                <form class="form">
+                    <h3 title="Envíeme un mail..">Envíeme un mail...</h3>
+                    <input type="text" placeholder="NOMBRE" title="Indique un nombre">
+                    <input type="email" placeholder="EMAIL" title="Indique un email">
+                    <textarea placeholder="ESCRIBA SU CORREO AQUI..." title="Escriba su mensaje aqui..."></textarea>
+                        <button type="submit" class="btn-submit" title="Enviar mensaje">
+                            Enviar mensaje
+                    </button>
+                </form>
+            </div>
+        </div>
+        <script src="js/script.js"></script>
+    </body>
+</html>
